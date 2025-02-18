@@ -38,13 +38,13 @@ public class PracticeProblem {
 
 	public static int fartherFromZero(int num1) { //3
 
-		int result;
+		int result = 0;
 
 		if (num1 > 0) {
 			result = num1 + 5;
 		}
 
-		else {
+		if (num1 < 0) {
 			result = num1 - 5;
 		}
 
